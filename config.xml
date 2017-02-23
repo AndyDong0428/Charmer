@@ -1,0 +1,13 @@
+<Global>
+	<SampleFolder>Samples</SampleFolder>
+	
+	<CaseFolder>Cases</CaseFolder>
+	<ReportFolder>Report</ReportFolder>
+	<CaseTimeout>10000</CaseTimeout>
+	<OutputFolder>".\logs"</OutputFolder>
+	<ResultHtml>testResult.xml</ResultHtml>
+	
+	<MonitorProcess>
+		<Proc name="javaw.exe">10</Proc>
+	</MonitorProcess>
+</Global>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plan name="smoke">
+    <group precondition="None" postcondition="None">
+		<case>DemoTest.S01001001</case>
+	</group>
+	<group precondition="DemoTest.S01001002" postcondition="DemoTest.S01001002">
+		<case>DemoTest</case>
+	</group>
+</plan> 
